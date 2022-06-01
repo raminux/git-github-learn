@@ -24,3 +24,12 @@ Git users are diverse:
 
 # Git vs Github?
 Git is a VCS that everyone can install and use it for tracking their own projects. Github is a service that hosts git repositories in the cloud and make it easier to collaborate with others. 
+
+# Git Setup
+Git is primarily a command-line tool, but there is also different GUIs to use as listed on `https://git-scm.com/`. 
+```bash
+$> sudo apt install git
+$> sudo apt update
+$> sudo apt install snapd
+$> sudo snap install gitkraken --classic
+```
