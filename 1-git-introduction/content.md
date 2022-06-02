@@ -33,3 +33,16 @@ $> sudo apt update
 $> sudo apt install snapd
 $> sudo snap install gitkraken --classic
 ```
+
+# Configuring Git
+After successful installation of Git, it is time to add your name and email to the git configuration. 
+To check for the name and email, use the following command:
+```bash
+$> git config user.name
+$> git config user.email
+```
+To configure a new name and email, use the following command:
+```bash
+$> git config --global user.name 'Ramin Esmzad'
+$> git config --global user.email "ramin.esmzad@hotmail.com"
+```
